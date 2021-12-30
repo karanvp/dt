@@ -1,0 +1,14 @@
+uuid: 17667da5-348a-4356-8d90-8d9c588ee86e
+langcode: en
+status: true
+dependencies: {  }
+name: news_article_style
+label: 'news article style'
+effects:
+  70c55512-6c8a-4dbf-879f-9dc572fca305:
+    uuid: 70c55512-6c8a-4dbf-879f-9dc572fca305
+    id: image_resize
+    weight: 1
+    data:
+      width: 1150
+      height: 500

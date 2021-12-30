@@ -1,0 +1,29 @@
+uuid: a6bdbe5f-5908-453a-835a-5bcb377b4976
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.gift_guides_view
+  module:
+    - system
+    - views
+  theme:
+    - icecream
+id: views_block__gift_guides_view_block_1
+theme: icecream
+region: viewGiftGuides
+weight: -12
+provider: null
+plugin: 'views_block:gift_guides_view-block_1'
+settings:
+  id: 'views_block:gift_guides_view-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false

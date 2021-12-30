@@ -1,0 +1,14 @@
+uuid: 840215ea-4972-4111-84e9-d1824d088f63
+langcode: en
+status: true
+dependencies: {  }
+name: header_style
+label: 'header style'
+effects:
+  bd537615-1ad1-49be-96e7-9c019c189b37:
+    uuid: bd537615-1ad1-49be-96e7-9c019c189b37
+    id: image_resize
+    weight: 1
+    data:
+      width: 600
+      height: 30

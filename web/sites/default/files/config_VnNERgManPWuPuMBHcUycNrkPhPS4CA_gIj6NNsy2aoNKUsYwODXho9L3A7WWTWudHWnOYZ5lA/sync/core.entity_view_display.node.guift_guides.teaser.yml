@@ -1,0 +1,38 @@
+uuid: cd84dbe8-7a51-4098-8eb7-faf8763d4cae
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.guift_guides.body
+    - field.field.node.guift_guides.field_display_image
+    - field.field.node.guift_guides.field_gift_video
+    - field.field.node.guift_guides.field_image
+    - field.field.node.guift_guides.field_v
+    - node.type.guift_guides
+  module:
+    - text
+    - user
+id: node.guift_guides.teaser
+targetEntityType: node
+bundle: guift_guides
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_display_image: true
+  field_gift_video: true
+  field_image: true
+  field_v: true

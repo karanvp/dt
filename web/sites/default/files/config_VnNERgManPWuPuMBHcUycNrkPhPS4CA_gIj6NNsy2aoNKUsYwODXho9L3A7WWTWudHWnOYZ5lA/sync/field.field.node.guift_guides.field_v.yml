@@ -1,0 +1,29 @@
+uuid: 40083335-53f5-4505-a61f-0a0dcd23a09e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_v
+    - media.type.video
+    - node.type.guift_guides
+id: node.guift_guides.field_v
+field_name: field_v
+entity_type: node
+bundle: guift_guides
+label: v
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      video: video
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

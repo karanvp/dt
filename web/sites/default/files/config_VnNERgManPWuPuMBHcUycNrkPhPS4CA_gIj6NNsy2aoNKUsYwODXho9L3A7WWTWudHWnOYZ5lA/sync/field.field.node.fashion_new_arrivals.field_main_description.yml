@@ -1,0 +1,21 @@
+uuid: c846af6f-3f07-4dd4-834f-1343d889a8b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_main_description
+    - node.type.fashion_new_arrivals
+  module:
+    - text
+id: node.fashion_new_arrivals.field_main_description
+field_name: field_main_description
+entity_type: node
+bundle: fashion_new_arrivals
+label: 'Main description'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

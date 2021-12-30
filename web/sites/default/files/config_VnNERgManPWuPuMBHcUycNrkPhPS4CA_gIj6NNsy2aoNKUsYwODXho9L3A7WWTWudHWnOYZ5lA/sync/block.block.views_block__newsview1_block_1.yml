@@ -1,0 +1,24 @@
+uuid: f3abe5f3-d79a-41c1-9369-caad5425ab81
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.newsview1
+  module:
+    - views
+  theme:
+    - icecream
+id: views_block__newsview1_block_1
+theme: icecream
+region: header
+weight: -10
+provider: null
+plugin: 'views_block:newsview1-block_1'
+settings:
+  id: 'views_block:newsview1-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

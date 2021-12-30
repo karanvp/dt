@@ -1,0 +1,60 @@
+uuid: e67b9ddf-4c4c-47e9-91c6-3e3cfbaeb9b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.guift_guides.body
+    - field.field.node.guift_guides.field_display_image
+    - field.field.node.guift_guides.field_gift_video
+    - field.field.node.guift_guides.field_image
+    - field.field.node.guift_guides.field_v
+    - node.type.guift_guides
+  module:
+    - image
+    - text
+    - user
+    - video_embed_field
+id: node.guift_guides.default
+targetEntityType: node
+bundle: guift_guides
+mode: default
+content:
+  body:
+    label: visually_hidden
+    type: text_default
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_gift_video:
+    weight: 1
+    label: visually_hidden
+    settings:
+      autoplay: true
+      responsive: true
+      width: 854
+      height: 480
+    third_party_settings: {  }
+    type: video_embed_field_video
+    region: content
+  field_image:
+    weight: 2
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_v:
+    type: entity_reference_entity_view
+    weight: 0
+    label: visually_hidden
+    settings:
+      view_mode: full
+      link: false
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_display_image: true
+  links: true

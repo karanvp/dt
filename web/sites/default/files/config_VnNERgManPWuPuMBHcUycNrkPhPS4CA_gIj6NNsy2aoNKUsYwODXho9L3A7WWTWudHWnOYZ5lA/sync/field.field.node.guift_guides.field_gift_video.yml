@@ -1,0 +1,25 @@
+uuid: 26e1dc2f-dcb9-4fd1-9072-bbd07d8a86ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gift_video
+    - node.type.guift_guides
+  module:
+    - video_embed_field
+id: node.guift_guides.field_gift_video
+field_name: field_gift_video
+entity_type: node
+bundle: guift_guides
+label: 'gift video'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_providers:
+    youtube: '0'
+    vimeo: '0'
+    youtube_playlist: '0'
+field_type: video_embed_field

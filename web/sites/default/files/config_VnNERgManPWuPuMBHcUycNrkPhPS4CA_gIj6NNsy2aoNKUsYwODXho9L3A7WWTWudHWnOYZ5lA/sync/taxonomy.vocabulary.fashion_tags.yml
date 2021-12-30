@@ -1,0 +1,8 @@
+uuid: ffb26842-1de2-4c02-a516-66f80c52c769
+langcode: en
+status: true
+dependencies: {  }
+name: 'fashion tags'
+vid: fashion_tags
+description: 'terms for fashion based articles'
+weight: 0

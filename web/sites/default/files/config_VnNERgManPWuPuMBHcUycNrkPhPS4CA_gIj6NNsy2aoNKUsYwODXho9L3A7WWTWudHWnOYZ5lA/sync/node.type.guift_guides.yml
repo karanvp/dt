@@ -1,0 +1,18 @@
+uuid: b4763858-e512-43fd-9932-0bb84c07eab4
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Guift Guides'
+type: guift_guides
+description: 'Guides for gifting this christmas'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

@@ -1,0 +1,15 @@
+uuid: 167be83c-f5e0-4fdb-9620-22e1024377d8
+langcode: en
+status: true
+dependencies: {  }
+name: extra_medium_300_200_
+label: 'Extra Medium(300*200)'
+effects:
+  df6b0eb3-c881-4d4d-bb8a-4cebe847f368:
+    uuid: df6b0eb3-c881-4d4d-bb8a-4cebe847f368
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 300
+      height: 200
+      anchor: center-center

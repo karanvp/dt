@@ -1,0 +1,15 @@
+uuid: 06eb42ae-48e0-4837-a2e5-32cdcccf2511
+name: 'ELLE Website'
+mail: karanvpagare@gmail.com
+slogan: 'Fashion '
+page:
+  403: ''
+  404: ''
+  front: /node/17
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
+mail_notification: ''

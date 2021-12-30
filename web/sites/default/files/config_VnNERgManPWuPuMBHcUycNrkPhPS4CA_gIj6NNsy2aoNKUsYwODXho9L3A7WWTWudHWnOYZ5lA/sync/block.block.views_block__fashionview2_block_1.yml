@@ -1,0 +1,29 @@
+uuid: 32999aa4-a410-485b-9d1b-2108272bffcb
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.fashionview2
+  module:
+    - system
+    - views
+  theme:
+    - icecream
+id: views_block__fashionview2_block_1
+theme: icecream
+region: viewBeauty1
+weight: -12
+provider: null
+plugin: 'views_block:fashionview2-block_1'
+settings:
+  id: 'views_block:fashionview2-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false

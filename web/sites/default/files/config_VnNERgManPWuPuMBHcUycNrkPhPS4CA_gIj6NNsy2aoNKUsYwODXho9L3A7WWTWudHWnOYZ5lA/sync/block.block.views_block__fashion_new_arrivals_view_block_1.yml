@@ -1,0 +1,29 @@
+uuid: 0ca3e096-9963-4bdc-99f9-2c18dc4f5239
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.fashion_new_arrivals_view
+  module:
+    - system
+    - views
+  theme:
+    - icecream
+id: views_block__fashion_new_arrivals_view_block_1
+theme: icecream
+region: panel2
+weight: 0
+provider: null
+plugin: 'views_block:fashion_new_arrivals_view-block_1'
+settings:
+  id: 'views_block:fashion_new_arrivals_view-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false

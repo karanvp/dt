@@ -1,0 +1,16 @@
+uuid: 753d3e20-6139-46c6-be81-345c5780b0e6
+langcode: en
+status: true
+dependencies: {  }
+id: vendor
+label: vendor
+weight: 3
+is_admin: null
+permissions:
+  - 'access in-place editing'
+  - 'access user contact forms'
+  - 'create recipes content'
+  - 'delete own recipes content'
+  - 'edit own recipes content'
+  - 'edit own vendor content'
+  - 'use text format restricted_html'

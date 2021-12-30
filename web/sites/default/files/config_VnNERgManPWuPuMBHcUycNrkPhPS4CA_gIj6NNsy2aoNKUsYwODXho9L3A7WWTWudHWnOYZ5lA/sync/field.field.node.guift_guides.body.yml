@@ -1,0 +1,23 @@
+uuid: b851b05e-3037-4dc9-a69d-bb7b5fc0e97a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.guift_guides
+  module:
+    - text
+id: node.guift_guides.body
+field_name: body
+entity_type: node
+bundle: guift_guides
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

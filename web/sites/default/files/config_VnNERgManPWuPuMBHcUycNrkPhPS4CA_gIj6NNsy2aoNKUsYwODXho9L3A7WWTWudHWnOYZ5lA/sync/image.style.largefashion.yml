@@ -1,0 +1,15 @@
+uuid: 62e6b246-25e0-482a-adb7-0d0ac4fbe849
+langcode: en
+status: true
+dependencies: {  }
+name: largefashion
+label: largefashion
+effects:
+  216cb25f-c0be-4b7b-a82a-5d845f99e659:
+    uuid: 216cb25f-c0be-4b7b-a82a-5d845f99e659
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 700
+      height: 350
+      anchor: center-center

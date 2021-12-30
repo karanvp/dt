@@ -1,0 +1,17 @@
+uuid: ee850b83-a0ca-4405-a760-dc57492e3d45
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: vendor
+type: vendor
+description: 'details about the vendor'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

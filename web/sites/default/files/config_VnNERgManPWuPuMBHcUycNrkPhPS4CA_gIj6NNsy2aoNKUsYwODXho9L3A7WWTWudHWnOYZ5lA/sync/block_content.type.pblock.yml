@@ -1,0 +1,8 @@
+uuid: 5b9da547-d89a-45da-9541-a090a0b023e2
+langcode: en
+status: true
+dependencies: {  }
+id: pblock
+label: pblock
+revision: 0
+description: pblocks

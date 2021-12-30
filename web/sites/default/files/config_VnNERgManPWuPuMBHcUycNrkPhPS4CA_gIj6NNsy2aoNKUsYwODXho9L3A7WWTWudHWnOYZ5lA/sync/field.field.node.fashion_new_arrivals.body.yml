@@ -1,0 +1,23 @@
+uuid: 9e2d0145-4b53-43f9-8fde-efcb2dba1c77
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.fashion_new_arrivals
+  module:
+    - text
+id: node.fashion_new_arrivals.body
+field_name: body
+entity_type: node
+bundle: fashion_new_arrivals
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

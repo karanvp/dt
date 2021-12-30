@@ -1,0 +1,14 @@
+uuid: 662662da-3c91-40f3-a70d-73253d0bba37
+langcode: en
+status: true
+dependencies: {  }
+name: jumbo
+label: jumbo
+effects:
+  5fffb6d9-b290-4411-bc48-f1c93e31359a:
+    uuid: 5fffb6d9-b290-4411-bc48-f1c93e31359a
+    id: image_resize
+    weight: 1
+    data:
+      width: 1390
+      height: 500

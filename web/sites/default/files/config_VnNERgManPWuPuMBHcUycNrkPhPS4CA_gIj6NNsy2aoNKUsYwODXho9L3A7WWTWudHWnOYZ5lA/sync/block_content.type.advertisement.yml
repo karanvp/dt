@@ -1,0 +1,8 @@
+uuid: 8a8af999-37af-4792-a4a3-b0d8168cf595
+langcode: en
+status: true
+dependencies: {  }
+id: advertisement
+label: Advertisement
+revision: 0
+description: ads

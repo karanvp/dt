@@ -1,0 +1,18 @@
+uuid: 522e3ab8-7ba5-45a6-85f6-6a21af0358f3
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'fashion article'
+type: fashion_article
+description: 'articles related to fashion'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

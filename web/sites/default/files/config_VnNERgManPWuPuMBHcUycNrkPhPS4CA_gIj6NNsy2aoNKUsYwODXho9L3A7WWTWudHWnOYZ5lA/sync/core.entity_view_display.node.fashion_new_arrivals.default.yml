@@ -1,0 +1,86 @@
+uuid: d8c6f8e8-bb03-4a44-8ee0-adb9ce8bc560
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.fashion_new_arrivals.body
+    - field.field.node.fashion_new_arrivals.field_author
+    - field.field.node.fashion_new_arrivals.field_body2
+    - field.field.node.fashion_new_arrivals.field_image
+    - field.field.node.fashion_new_arrivals.field_image2
+    - field.field.node.fashion_new_arrivals.field_main_description
+    - field.field.node.fashion_new_arrivals.field_trend1
+    - field.field.node.fashion_new_arrivals.field_trend2
+    - node.type.fashion_new_arrivals
+  module:
+    - image
+    - text
+    - user
+id: node.fashion_new_arrivals.default
+targetEntityType: node
+bundle: fashion_new_arrivals
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_author:
+    weight: 1
+    label: visually_hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_body2:
+    weight: 6
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_image:
+    weight: 4
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_image2:
+    weight: 7
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_main_description:
+    weight: 0
+    label: visually_hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_trend1:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_trend2:
+    weight: 5
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  links: true

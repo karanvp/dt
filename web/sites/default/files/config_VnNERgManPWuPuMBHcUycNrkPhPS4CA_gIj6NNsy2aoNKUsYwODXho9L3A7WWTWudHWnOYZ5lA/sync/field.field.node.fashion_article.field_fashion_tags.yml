@@ -1,0 +1,29 @@
+uuid: e6ea2ce5-7659-434a-ab4a-ed5525f407ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fashion_tags
+    - node.type.fashion_article
+    - taxonomy.vocabulary.fashion_tags
+id: node.fashion_article.field_fashion_tags
+field_name: field_fashion_tags
+entity_type: node
+bundle: fashion_article
+label: 'fashion tags'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      fashion_tags: fashion_tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

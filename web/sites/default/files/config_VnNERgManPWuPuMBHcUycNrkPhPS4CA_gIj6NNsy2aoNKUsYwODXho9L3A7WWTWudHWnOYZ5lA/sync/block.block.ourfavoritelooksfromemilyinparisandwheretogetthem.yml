@@ -1,0 +1,25 @@
+uuid: 419581af-b196-4b48-b1b1-1dd4b508cb1e
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:pblock:69242c94-e121-47b5-bfbf-d891ab38076b'
+  module:
+    - block_content
+  theme:
+    - icecream
+id: ourfavoritelooksfromemilyinparisandwheretogetthem
+theme: icecream
+region: panel1
+weight: -9
+provider: null
+plugin: 'block_content:69242c94-e121-47b5-bfbf-d891ab38076b'
+settings:
+  id: 'block_content:69242c94-e121-47b5-bfbf-d891ab38076b'
+  label: 'Our Favorite Looks From Emily in Paris and where to get them'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

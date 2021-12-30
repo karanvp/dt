@@ -1,0 +1,23 @@
+uuid: a7af7fa4-e06a-4e32-ba31-aabce7e5934a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_vendor_url
+    - node.type.recipes
+  module:
+    - link
+id: node.recipes.field_vendor_url
+field_name: field_vendor_url
+entity_type: node
+bundle: recipes
+label: 'Vendor URL'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 1
+field_type: link

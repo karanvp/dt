@@ -1,0 +1,34 @@
+uuid: befe9966-2d9e-4083-bc55-c104093ebee9
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.advertisement
+    - field.field.block_content.advertisement.body
+    - field.field.block_content.advertisement.field_image
+    - image.style.banner_style
+  module:
+    - image
+    - text
+id: block_content.advertisement.default
+targetEntityType: block_content
+bundle: advertisement
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image:
+    weight: 1
+    label: above
+    settings:
+      image_style: banner_style
+      image_link: content
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }
